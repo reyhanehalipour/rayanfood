@@ -1,0 +1,32 @@
+.cart-img-box {
+    width: 80px;
+}
+.cart-img-box  img{
+    width: 100%;
+}
+
+.cart-item-del{
+    cursor: pointer;
+}
+.cart-page-btn button a:hover{
+    color: aliceblue;
+   
+}
+.cart-page-btn{
+    display: flex;
+    justify-content:left;
+    gap: 15px;
+}
+
+.cart-subtotal{
+    color: #df2020;
+    font-size: 1.5rem;
+}
+
+@media screen and(max-width:768px){
+   th,
+   td{
+       font-size: 0.8rem;
+   }
+    
+}

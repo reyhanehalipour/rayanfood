@@ -1,0 +1,152 @@
+.feature-subtitle{
+    color: #df2020;
+}
+.feature-title span{
+    color: #df2020;
+}
+
+.feature-text{
+    color: #777;
+}
+
+.feature-item  p{
+    color: #777;
+}
+.food-category{
+    background-color: #df2020;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 8px;
+}
+
+.food-category button{
+    background-color: transparent;
+    padding: 7px 20px;
+    border: none;
+    outline: none;
+}
+
+.food-category img{
+    width: 20px;
+    height: 20px;
+}
+
+.foodbtnactive{
+    background: #fff !important;
+    border-radius: 5px;
+    color: #df2020 !important;
+}
+
+.tasty-tread-title span{
+    color: #df2020;
+
+}
+.tasty-tread-desc{
+    color: #777;
+    line-height: 30px;
+}
+.choose-use-title{
+    font-weight: 600;
+    align-items: center;
+    
+}
+.choose-use-title i{
+    color: #df2020;
+}
+
+.chose-use-desc{
+    color: #777;
+} 
+
+.testimonial-title span{
+    color: #df2020;
+}
+
+.testimonial-desc{
+    color: #777;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.Testimonial-subtitle{
+    color: #df2020;
+}
+.order-btn:hover{
+    color: #fff;
+}
+
+@media  screen and (max-width:576px) {
+    .hero-content{
+       text-align: center;
+    }
+
+
+    .hero-content h5{
+        font-size: 1.5rem !important;
+    }
+    .hero-content p{
+        font-size: 0.9rem !important;
+        line-height: 25px;
+    }
+
+    .hero-title {
+        font-size: 1rem;
+        line-height: 40px;
+    }
+    .img-content img{
+        display: none;
+    }
+    .hero-btns{
+        justify-content: center;
+        
+    }
+
+    .hero-btns button{
+        padding: 7px 15px;
+        font-size: 0.9rem;
+      
+        
+    }
+}
+
+@media  screen and (max-width:768px) {
+    
+
+
+    .hero-content h5{
+        font-size: 1rem !important;
+    }
+    .hero-content p{
+        font-size: 0.8rem !important;
+        line-height: 25px;
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+   
+    .hero-btns{
+        justify-content: center;
+        
+    }
+
+    .hero-btns button{
+        padding: 5px 15px;
+        font-size: 0.7rem;
+      
+        
+    }
+    .tasty-tread-desc{
+        font-size: 00.8rem;
+        margin-bottom: 0;
+    }
+
+    .choose-use-title {
+        font-size: 0.8rem;
+
+    }
+    .chose-use-desc{
+        font-size: 0.7rem;
+    }
+}

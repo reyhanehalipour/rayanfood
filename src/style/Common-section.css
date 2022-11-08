@@ -1,0 +1,10 @@
+.common-section{
+    background: linear-gradient(#21224577,#21224594) ,url('../assets/images/banner-02.jpg');
+    background-repeat: non;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px;
+}
+.text-commensection{
+    color: aliceblue;
+}

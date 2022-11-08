@@ -1,0 +1,18 @@
+.chekout-bill{
+    background: #fde4e4;
+    padding: 30px;
+
+}
+.total-chekout{
+    color: #df2020;
+}
+
+@media screen and(max-width:768px){
+    .chekout-bill h6{
+        font-size: 0.9rem;
+    }
+    .chekout-bill h6{
+       margin-top: 40px;
+    }
+    
+}

@@ -1,0 +1,28 @@
+.search-widget,.sorting-widget{
+    padding: 7px 15px;
+    border: 1px solid #fde4e4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.search-widget input{
+    border: none;
+}
+.search-widget input:focus{
+    outline: none;
+}
+
+@media screen and(width:768px) {
+    .vsearch-widget{
+        width: 100%;
+        margin-top: 20px;
+
+    }.search-widget select{
+        width: 100% !important;
+    }
+    .search-widget input{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    
+}

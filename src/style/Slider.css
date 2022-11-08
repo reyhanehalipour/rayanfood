@@ -1,0 +1,29 @@
+.text-review{
+    color: #777;
+    line-height: 20px;
+    padding: 40px 0px;
+}
+
+.slider-content img{
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+@media screen and(max-width:768px) {
+    .text-review{
+       font-size: 0.8rem;
+       margin: 20px 0px;
+    }
+    .slider-content img{
+        width: 35px;
+        height: 35px;
+     
+    }
+
+    .slider-content h6{
+        font-size: 0.8rem;
+       
+    }
+}
